@@ -1,4 +1,4 @@
-from tkinter import Listbox
+#make list and add element to specific index
 
 
 n = int(input("Enter the number of elements: "))
@@ -10,7 +10,7 @@ for i in range(n):
     List.append(number)
 print(List, "is the orignal list.")
 while loop==1:
-    index = int(input("Enter the index position: "))
+    index = int(input("Enter the index position: "))-1
     num = eval(input("Enter the new element: "))
     List.insert(index, num)
     print(List, "is the new list.")

@@ -1,3 +1,6 @@
+#sort list of numbers and display median of them
+
+
 n = int(input("Enter how many numbers you want to enter: "))
 List=[]
 for i in range(n):

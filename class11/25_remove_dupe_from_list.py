@@ -1,3 +1,6 @@
+#Remove duplicats from list of numbers
+
+
 n = int(input("Enter how many numbers you want to enter: "))
 List=[]
 for i in range(n):
