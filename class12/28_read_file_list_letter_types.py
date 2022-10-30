@@ -1,6 +1,7 @@
 f=open("file.txt","r")
 
 string=f.read()
+
 vowels = 0
 consonant = 0
 specialChar = 0
