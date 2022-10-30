@@ -29,3 +29,4 @@ while True:
         break
     else:
         hcf=hcf-1
+print("HCF =", hcf)
