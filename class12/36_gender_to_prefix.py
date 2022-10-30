@@ -7,6 +7,7 @@ def nametoprefix(name,gender):
         print("Ms." + name )
     else:
         print("Invalid gender input")
+        
 while True :
     name = input("Enter your name: ")
     gender = input("Enter your gender (M for Male, F for Female): ")
